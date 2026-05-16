@@ -327,13 +327,13 @@
   <div class="grid-4" style="margin-bottom:8px;">
     <div class="card kpi">
       <div class="card-title"><span class="icon">💰</span> Total gastado</div>
-      <div class="amount">$50,983</div>
+      <div class="amount">$150,984</div>
       <div class="label">Gastos totales del accidente</div>
       <div class="sub">Hospitalización + farmacia</div>
     </div>
     <div class="card kpi green">
       <div class="card-title"><span class="icon">✅</span> Pagado al hospital</div>
-      <div class="amount">$15,106</div>
+      <div class="amount">$145,106</div>
       <div class="label">Deducible + coaseguro</div>
       <div class="sub">Hospital 100% liquidado</div>
     </div>
@@ -345,9 +345,9 @@
     </div>
     <div class="card kpi">
       <div class="card-title"><span class="icon">📅</span> Próxima cita</div>
-      <div class="amount" style="font-size:22px;">~28 mayo</div>
-      <div class="label">Dr. Sergio Zamora</div>
-      <div class="sub">Llevar laboratorios</div>
+      <div class="amount" style="font-size:22px;">19 mayo</div>
+      <div class="label">Dr. Pérez Garza · Grapas</div>
+      <div class="sub">~28 mayo: Dr. Zamora (labs)</div>
     </div>
   </div>
 
@@ -379,6 +379,18 @@
           </div>
           <div class="task-meta">Confirmar cierre del expediente 2026HI001274520</div>
           <div class="task-date">📧 deptoseguros@bene.com.mx</div>
+        </div>
+      </div>
+
+      <div class="task-item">
+        <input type="checkbox" class="task-check" id="t5" onchange="toggleTask(this)">
+        <div class="task-body">
+          <div class="task-title" id="t5-label">
+            Cita retiro de grapas — Dr. Pérez Garza
+            <span class="badge badge-red">MARTES 19 MAYO</span>
+          </div>
+          <div class="task-meta">Centro Español de Tampico · Cuarto / Consultorio a confirmar</div>
+          <div class="task-date">☎ (833) 241-23-63</div>
         </div>
       </div>
 
@@ -421,7 +433,7 @@
           <div class="tl-dot done"></div>
           <div class="tl-date">9 mayo 2026</div>
           <div class="tl-title">✅ Pago deducible anticipado</div>
-          <div class="tl-sub">$11,180.00 — tarj. BBVA *9437 (Recibo 1RC25502)</div>
+          <div class="tl-sub">$111,180.00 — tarj. BBVA *9437 (Recibo 1RC25502)</div>
         </div>
         <div class="tl-item">
           <div class="tl-dot done"></div>
@@ -439,7 +451,7 @@
           <div class="tl-dot done"></div>
           <div class="tl-date">13 mayo 2026</div>
           <div class="tl-title">✅ Liquidación final hospital</div>
-          <div class="tl-sub">$3,925.95 — tarj. AFIRME *7609 (Aut. 844592) · Hospital 100% pagado</div>
+          <div class="tl-sub">$33,925.95 — tarj. AFIRME *7609 (Aut. 844592) · Hospital 100% pagado</div>
         </div>
         <div class="tl-item">
           <div class="tl-dot done"></div>
@@ -458,6 +470,12 @@
           <div class="tl-date">Antes del 28 mayo</div>
           <div class="tl-title">⏳ Sacar laboratorios</div>
           <div class="tl-sub">Panel completo ordenado por Dr. Zamora</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot pending"></div>
+          <div class="tl-date">Martes 19 mayo 2026</div>
+          <div class="tl-title">📍 Retiro de grapas — Dr. Pérez Garza</div>
+          <div class="tl-sub">Centro Español de Tampico · (833) 241-23-63</div>
         </div>
         <div class="tl-item">
           <div class="tl-dot urgent"></div>
@@ -632,7 +650,7 @@
 
       <div class="fin-row">
         <div class="fin-label">FA119660 — Servicios hospitalarios</div>
-        <div class="fin-amt">$40,357.40</div>
+        <div class="fin-amt">$140,357.40</div>
       </div>
       <div class="fin-row">
         <div class="fin-label">FA119661 — Material y medicamento</div>
@@ -644,22 +662,22 @@
       </div>
       <div class="fin-row" style="border-top:2px solid var(--border); margin-top:4px; padding-top:12px;">
         <div class="fin-label" style="font-weight:700;">TOTAL GASTOS</div>
-        <div class="fin-amt total">$50,983.68</div>
+        <div class="fin-amt total">$150,983.68</div>
       </div>
 
       <div style="margin-top:16px; border-top:2px solid var(--border); padding-top:14px;">
         <div class="card-title"><span class="icon">✅</span> Pagos realizados (No reembolsables)</div>
         <div class="fin-row">
           <div class="fin-label sub">Pago anticipado · tarj. BBVA *9437 (9 mayo)</div>
-          <div class="fin-amt">$11,180.00</div>
+          <div class="fin-amt">$111,180.00</div>
         </div>
         <div class="fin-row">
           <div class="fin-label sub">Liquidación final · tarj. AFIRME *7609 (13 mayo)</div>
-          <div class="fin-amt">$3,925.95</div>
+          <div class="fin-amt">$33,925.95</div>
         </div>
         <div class="fin-row">
           <div class="fin-label" style="font-weight:700;">TOTAL PAGADO AL HOSPITAL</div>
-          <div class="fin-amt green">$15,105.95</div>
+          <div class="fin-amt green">$145,105.95</div>
         </div>
         <div class="progress-bar" style="margin-top:6px;">
           <div class="progress-fill" style="width:100%;"></div>
